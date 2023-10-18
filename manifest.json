@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "osu! backgrounds",
+    "version": "1.0",
+    "description": "Provides an easy way to download beatmap backgrounds from osu!",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "images/icon.png"
+    },
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab"
+    ]
+}

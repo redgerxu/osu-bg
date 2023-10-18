@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Aller";
+    src: url(aller/Aller_Bd.ttf);
+}
+
+* {
+    color: white;
+    font-family: Aller;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+body {
+    background-color: #333333;
+    padding: 1em;
+}
+
+button, a {
+    background-color: #FF69B4;
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+button, a {
+    display: flex;
+    background-color: darken(#FF69B4, 20%);
+    margin-right: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
